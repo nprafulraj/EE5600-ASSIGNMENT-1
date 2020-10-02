@@ -33,11 +33,13 @@ Substituting \ref{lineeqn} in \ref{plane} as line passes through the plane we ca
 \section{Solution}
 \textbf{Step 1}\\
 Let us first findout the equation of line passing through two given points using \ref{lineeqn} \\
-\\$\textbf{x}=\begin{pmatrix}3 \\-4 \\-5\end{pmatrix}+\lambda \begin{pmatrix}2-3 \\-3+4 \\1+5\end{pmatrix}$
+\\\begin{gather}\textbf{x}=\begin{pmatrix}3 \\-4 \\-5\end{pmatrix}+\lambda 
+\begin{pmatrix}2-3 \\-3+4 \\1+5\end{pmatrix}\end{gather}
 \\
 \begin{gather}\label{lineq1}
 % \vec{r}=(-\lambda +3)\hat{i}+(\lambda - 4)\hat{j}+(6 \lambda - 5)\hat{k}
-\textbf{x}=\begin{pmatrix} -\lambda +3\\ \lambda - 4\\6 \lambda - 5\end{pmatrix}
+\textbf{x}=\begin{pmatrix}3 \\-4 \\-5\end{pmatrix}+\lambda 
+\begin{pmatrix}-1 \\1 \\6\end{pmatrix}
 \end{gather}
 \textbf{Step 2}\\
 Now let us construct the equation of plane from the given data.\\
@@ -49,23 +51,25 @@ Using the values we can construct
 %\begin{gather}\label{d}d=\dfrac{|7|}{\sqrt{6}}\end{gather}
 
 \textbf{Step 3}\\
-Now using \ref{lineq1}\  \ref{n}   in \ref{plane}\\
+Now using \ref{lineq1} , \ref{n}   in \ref{plane}\\
 
 \begin{gather}\label{r1}
 %\bigg( (-\lambda +3)\hat{i}+(\lambda - 4)\hat{j}+(6 \lambda - 5)\hat{k} \bigg) \cdot \bigg( \dfrac{2\hat{i}+\hat{j}+\hat{k}}{\sqrt{6}} \bigg) = \dfrac{|7|}{\sqrt{6}}
 \textbf{n}^T\textbf{x}=c
+%\begin{pmatrix} 2 && 1 && 1\end{pmatrix} \Bigg( \begin{pmatrix}3 \\-4 \\-5\end{pmatrix}+\lambda\begin{pmatrix}-1 \\1 \\6\end{pmatrix} \Bigg)=7
 \end{gather}
 solving \ref{r1} we get \\
-$ -2\lambda + 6+ \lambda -4 + 6 \lambda-5=7$ \\ $ 5 \lambda=10 $
+\begin{gather}  6 -4 -5-2\lambda+ \lambda+ 6 \lambda=7 \end{gather}
+\\ \begin{gather} 5 \lambda=10 \end{gather}
 \begin{gather}\label{la} 
 \lambda=2 
 \end{gather}
 Now substituting the value of $\lambda$ in \ref{lineeqn} we get 
-$\textbf{x}=\begin{pmatrix}-2+3\\2-4\\12-5 \end{pmatrix}$
+\begin{gather}\textbf{x}=\begin{pmatrix}-2+3\\2-4\\12-5 \end{pmatrix}\end{gather}
 \\Therefore the point of contact of line on plane is
-\\$\textbf{x}=\begin{pmatrix}1\\-2\\7 \end{pmatrix}$
+\\\begin{gather}\textbf{x}=\begin{pmatrix}1\\-2\\7 \end{pmatrix}\end{gather}
 \pagebreak
-The figure illustrates the
+
 \includegraphics{Figure_3}
 \includegraphics{Figure_4}
 
