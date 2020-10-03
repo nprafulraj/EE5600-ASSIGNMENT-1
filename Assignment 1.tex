@@ -21,7 +21,7 @@
 
 	
 \section{Problem}
-Find the coordinates of the point where the line through$\begin{pmatrix}3 \\-4 \\-5\end{pmatrix}$ and $\begin{pmatrix}2 \\-3 \\1\end{pmatrix}$ crosses the plane $\begin{pmatrix}2 & 1 & 1\end{pmatrix}$x=7 
+Find the coordinates of the point where the line through$\begin{pmatrix}3 \\-4 \\-5\end{pmatrix}$ and $\begin{pmatrix}2 \\-3 \\1\end{pmatrix}$ crosses the plane \begin{align}\begin{pmatrix}2 & 1 & 1\end{pmatrix}x=7 \end{align}
 
 \section{Explanation}\label{exp}
 We know that vector equation of line passing through two points , say A and B is
@@ -55,8 +55,8 @@ Now using \ref{lineq1} , \ref{n}   in \ref{plane}\\
 
 \begin{gather}\label{r1}
 %\bigg( (-\lambda +3)\hat{i}+(\lambda - 4)\hat{j}+(6 \lambda - 5)\hat{k} \bigg) \cdot \bigg( \dfrac{2\hat{i}+\hat{j}+\hat{k}}{\sqrt{6}} \bigg) = \dfrac{|7|}{\sqrt{6}}
-\textbf{n}^T\textbf{x}=c
-%\begin{pmatrix} 2 && 1 && 1\end{pmatrix} \Bigg( \begin{pmatrix}3 \\-4 \\-5\end{pmatrix}+\lambda\begin{pmatrix}-1 \\1 \\6\end{pmatrix} \Bigg)=7
+%\textbf{n}^T\textbf{x}=c
+\begin{pmatrix} 2 && 1 && 1\end{pmatrix} \Bigg( \begin{pmatrix}3 \\-4 \\-5\end{pmatrix}+\lambda\begin{pmatrix}-1 \\1 \\6\end{pmatrix} \Bigg)=7
 \end{gather}
 solving \ref{r1} we get \\
 \begin{gather}  6 -4 -5-2\lambda+ \lambda+ 6 \lambda=7 \end{gather}
